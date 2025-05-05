@@ -1,0 +1,11 @@
+print("Hello, World!")
+name=input("Whats your name?")
+print(f"Hello, {name}")
+name=input("Enter your name:")
+age=input("Enter your age")
+print(f"Hello {name.title()},you are {age}years old")
+print("Hello, " + name + ", You are " + age + "years old")
+celsius=int(input("Enter temperature in celsius:"))
+celsius = int(celsius)
+fahrenheit = (celsius * 9 / 5) + 32
+print(fahrenheit)
